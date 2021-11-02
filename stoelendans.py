@@ -73,7 +73,5 @@ def read_input(file_name: str) -> ConcertHall:
 
 if __name__ == '__main__':
     hall = read_input('test_input.txt')
-    print(hall._seats)
     hall.iterate_until_converge()
     print(hall)
-
