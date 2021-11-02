@@ -1,5 +1,6 @@
 import datetime
 age = input("Please provide me with your age: ")
+age = int(age)
 
 def yearsTo100(age):
     now = datetime.datetime.now()
